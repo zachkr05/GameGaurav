@@ -1,3 +1,10 @@
+// Before compiling, make sure you have installed the following libraries by doing "sudo apt install build-essential libgl-dev libglfw3-dev libglew-dev"
+// Compile with "g++ main.cpp -o OpenGLApp -lGL -lglfw -lGLEW"
+// Run with "./OpenGLApp"
+
+
+
+
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
